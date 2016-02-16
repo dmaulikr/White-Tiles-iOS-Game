@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC73CE2319F62BEF00E8C997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73CE2219F62BEF00E8C997 /* AppDelegate.swift */; };
+		AC73CE2519F62BEF00E8C997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73CE2419F62BEF00E8C997 /* ViewController.swift */; };
+		AC73CE2819F62BEF00E8C997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC73CE2619F62BEF00E8C997 /* Main.storyboard */; };
+		AC73CE2A19F62BEF00E8C997 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC73CE2919F62BEF00E8C997 /* Images.xcassets */; };
+		AC73CE2D19F62BEF00E8C997 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC73CE2B19F62BEF00E8C997 /* LaunchScreen.xib */; };
+		AC73CE3919F62BEF00E8C997 /* WhiteTilesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC73CE3819F62BEF00E8C997 /* WhiteTilesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC73CE3319F62BEF00E8C997 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC73CE1519F62BEF00E8C997 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC73CE1C19F62BEF00E8C997;
+			remoteInfo = WhiteTiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC73CE1D19F62BEF00E8C997 /* WhiteTiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteTiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC73CE2119F62BEF00E8C997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC73CE2219F62BEF00E8C997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC73CE2419F62BEF00E8C997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC73CE2719F62BEF00E8C997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC73CE2919F62BEF00E8C997 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AC73CE2C19F62BEF00E8C997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AC73CE3219F62BEF00E8C997 /* WhiteTilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhiteTilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC73CE3719F62BEF00E8C997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC73CE3819F62BEF00E8C997 /* WhiteTilesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteTilesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC73CE1A19F62BEF00E8C997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC73CE2F19F62BEF00E8C997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC73CE1419F62BEF00E8C997 = {
+			isa = PBXGroup;
+			children = (
+				AC73CE1F19F62BEF00E8C997 /* WhiteTiles */,
+				AC73CE3519F62BEF00E8C997 /* WhiteTilesTests */,
+				AC73CE1E19F62BEF00E8C997 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC73CE1E19F62BEF00E8C997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC73CE1D19F62BEF00E8C997 /* WhiteTiles.app */,
+				AC73CE3219F62BEF00E8C997 /* WhiteTilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC73CE1F19F62BEF00E8C997 /* WhiteTiles */ = {
+			isa = PBXGroup;
+			children = (
+				AC73CE2219F62BEF00E8C997 /* AppDelegate.swift */,
+				AC73CE2419F62BEF00E8C997 /* ViewController.swift */,
+				AC73CE2619F62BEF00E8C997 /* Main.storyboard */,
+				AC73CE2919F62BEF00E8C997 /* Images.xcassets */,
+				AC73CE2B19F62BEF00E8C997 /* LaunchScreen.xib */,
+				AC73CE2019F62BEF00E8C997 /* Supporting Files */,
+			);
+			path = WhiteTiles;
+			sourceTree = "<group>";
+		};
+		AC73CE2019F62BEF00E8C997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC73CE2119F62BEF00E8C997 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC73CE3519F62BEF00E8C997 /* WhiteTilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC73CE3819F62BEF00E8C997 /* WhiteTilesTests.swift */,
+				AC73CE3619F62BEF00E8C997 /* Supporting Files */,
+			);
+			path = WhiteTilesTests;
+			sourceTree = "<group>";
+		};
+		AC73CE3619F62BEF00E8C997 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC73CE3719F62BEF00E8C997 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC73CE1C19F62BEF00E8C997 /* WhiteTiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC73CE3C19F62BEF00E8C997 /* Build configuration list for PBXNativeTarget "WhiteTiles" */;
+			buildPhases = (
+				AC73CE1919F62BEF00E8C997 /* Sources */,
+				AC73CE1A19F62BEF00E8C997 /* Frameworks */,
+				AC73CE1B19F62BEF00E8C997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhiteTiles;
+			productName = WhiteTiles;
+			productReference = AC73CE1D19F62BEF00E8C997 /* WhiteTiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC73CE3119F62BEF00E8C997 /* WhiteTilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC73CE3F19F62BEF00E8C997 /* Build configuration list for PBXNativeTarget "WhiteTilesTests" */;
+			buildPhases = (
+				AC73CE2E19F62BEF00E8C997 /* Sources */,
+				AC73CE2F19F62BEF00E8C997 /* Frameworks */,
+				AC73CE3019F62BEF00E8C997 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC73CE3419F62BEF00E8C997 /* PBXTargetDependency */,
+			);
+			name = WhiteTilesTests;
+			productName = WhiteTilesTests;
+			productReference = AC73CE3219F62BEF00E8C997 /* WhiteTilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC73CE1519F62BEF00E8C997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Archetapp;
+				TargetAttributes = {
+					AC73CE1C19F62BEF00E8C997 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					AC73CE3119F62BEF00E8C997 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = AC73CE1C19F62BEF00E8C997;
+					};
+				};
+			};
+			buildConfigurationList = AC73CE1819F62BEF00E8C997 /* Build configuration list for PBXProject "WhiteTiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC73CE1419F62BEF00E8C997;
+			productRefGroup = AC73CE1E19F62BEF00E8C997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC73CE1C19F62BEF00E8C997 /* WhiteTiles */,
+				AC73CE3119F62BEF00E8C997 /* WhiteTilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC73CE1B19F62BEF00E8C997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC73CE2819F62BEF00E8C997 /* Main.storyboard in Resources */,
+				AC73CE2D19F62BEF00E8C997 /* LaunchScreen.xib in Resources */,
+				AC73CE2A19F62BEF00E8C997 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC73CE3019F62BEF00E8C997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC73CE1919F62BEF00E8C997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC73CE2519F62BEF00E8C997 /* ViewController.swift in Sources */,
+				AC73CE2319F62BEF00E8C997 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC73CE2E19F62BEF00E8C997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC73CE3919F62BEF00E8C997 /* WhiteTilesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC73CE3419F62BEF00E8C997 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC73CE1C19F62BEF00E8C997 /* WhiteTiles */;
+			targetProxy = AC73CE3319F62BEF00E8C997 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC73CE2619F62BEF00E8C997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC73CE2719F62BEF00E8C997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC73CE2B19F62BEF00E8C997 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC73CE2C19F62BEF00E8C997 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC73CE3A19F62BEF00E8C997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC73CE3B19F62BEF00E8C997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC73CE3D19F62BEF00E8C997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhiteTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC73CE3E19F62BEF00E8C997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WhiteTiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC73CE4019F62BEF00E8C997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhiteTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteTiles.app/WhiteTiles";
+			};
+			name = Debug;
+		};
+		AC73CE4119F62BEF00E8C997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WhiteTilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhiteTiles.app/WhiteTiles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC73CE1819F62BEF00E8C997 /* Build configuration list for PBXProject "WhiteTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC73CE3A19F62BEF00E8C997 /* Debug */,
+				AC73CE3B19F62BEF00E8C997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC73CE3C19F62BEF00E8C997 /* Build configuration list for PBXNativeTarget "WhiteTiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC73CE3D19F62BEF00E8C997 /* Debug */,
+				AC73CE3E19F62BEF00E8C997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC73CE3F19F62BEF00E8C997 /* Build configuration list for PBXNativeTarget "WhiteTilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC73CE4019F62BEF00E8C997 /* Debug */,
+				AC73CE4119F62BEF00E8C997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC73CE1519F62BEF00E8C997 /* Project object */;
+}
